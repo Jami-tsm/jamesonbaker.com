@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML,CSS,JS" />
+    <meta name="description" content="Personal Portfolio of Jameson Baker" />
+    <link rel="stylesheet" href=/style.css />
+    <link rel="stylesheet" href="mediaQueries.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <title>Jameson Baker</title>
+  </head>
+  <body>
+    <nav id="desktopNav">
+      <div class="logo">Jameson Baker</div>
+      <div>
+        <ul class="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburgerNav">
+      <div class="logo">Jameson Baker</div>
+      <div class="hamburgerMenu">
+        <div class="hamburgerIcon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menuLinks">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__picContainer">
+        <img src="/images/profilePic.png" alt="Jameson Baker Profile Picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text_p1">Hello, I'm</p>
+        <h1 class="title">Jameson Baker</h1>
+        <p class="section__text_p2">Computer Science Student</p>
+        <div class="btn_container">
+          <button
+            class="btn btnColor2"
+            onclick="window.open('/assets/Baker_Jameson_CSresume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btnColor1" onclick="location.href='./#contact'">
+            Contact
+          </button>
+        </div>
+        <div id="socialsContainer">
+          <img
+            src="./images/linkedenIcon.png"
+            alt="My linkeden Profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/jameson-baker-944647217'"
+          />
+          <img
+            src="./images/gitHubIcon.png"
+            alt="My Github Profile"
+            class="icon"
+            onclick="location.href='https://github.com/Jami-tsm'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text_p1">Get to Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="sectionCotainer">
+        <div class="section__picContainer">
+          <img
+            src="./images/IMG-7Cropped.jpg"
+            alt="Profile Picture"
+            class="aboutPic"
+          />
+        </div>
+        <div class="aboutDetailsContainer">
+          <div class="aboutContainers">
+            <div class="detailsContainer">
+              <img
+                src="./images/experienceIcon.png"
+                alt="Experience Icon"
+                class="icon"
+              />
+              <h3> Experience</h3>
+              <p>August 2023-Present <br>Student Coordinator <br>Hillel at RIT</p>
+            </div>
+            <div class="detailsContainer">
+              <img
+                src="./images/educationIcon.png"
+                alt="Education Icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>August 2023-May 2028 <br>B.s Computer Science <br>Rocester Institiute of Technology</p>
+            </div>
+            </div>
+            <div class="textContainer">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus exercitationem repudiandae 
+                laborum neque aliquid, ut velit error consectetur unde dolorum dicta omnis dolorem placeat. 
+                Dolores fuga necessitatibus reprehenderit cumque consequatur tenetur placeat tempore asperiores modi. 
+                Facilis, consequatur maiores. Ad architecto neque illum, non vel dolorum corporis ut labore dolore dolorem?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./images/arrowIcon.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="Experience">
+      <p class="section__text_p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experienceDetailsContainer">
+        <div class="aboutContainers">
+          <div class="detailsContainer">
+            <h2 class="experienceSubtitle">Computer Science Student</h2>
+            <div class="articleContainer">
+              <article>
+                <img src="./images/checkmark.png" alt="Checkmark Icon" class="icon">
+                <div>
+                  <h3>HTML</h3>
+                  <p>Familiar</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
