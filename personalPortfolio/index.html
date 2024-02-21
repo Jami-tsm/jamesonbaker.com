@@ -8,18 +8,18 @@
     <meta name="description" content="Personal Portfolio of Jameson Baker" />
     <link rel="stylesheet" href=style.css />
     <link rel="stylesheet" href="mediaQueries.css" />
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
     <title>Jameson Baker</title>
   </head>
   <body>
     <nav id="desktopNav">
-      <div class="logo">Jameson Baker</div>
+      <div class="logo" onclick="location.href='./#Profile'">Jameson Baker</div>
       <div>
         <ul class="navLinks">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -39,7 +39,7 @@
         </div>
       </div>
     </nav>
-    <section id="profile">
+    <section id="Profile">
       <div class="section__picContainer">
         <img src="images/profilePic.png" alt="Jameson Baker Profile Picture" />
       </div>
@@ -54,7 +54,7 @@
           >
             Download CV
           </button>
-          <button class="btn btnColor1" onclick="location.href='./#contact'">
+          <button class="btn btnColor1" onclick="location.href='./#Contact'">
             Contact
           </button>
         </div>
@@ -63,69 +63,76 @@
             src="./images/linkedenIcon.png"
             alt="My linkeden Profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/in/jameson-baker-944647217'"
+            onclick= "window.open('https://linkedin.com/in/jameson-baker-944647217', '_blank')"
           />
           <img
             src="./images/gitHubIcon.png"
             alt="My Github Profile"
             class="icon"
-            onclick="location.href='https://github.com/Jami-tsm'"
+            onclick="window.open('https://github.com/Jami-tsm', '_blank')"
           />
         </div>
       </div>
     </section>
-    <section id="about">
-      <p class="section__text_p1">Get to Know More</p>
+    <section id="About">
+      <p class="section__text_p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
-      <div class="sectionCotainer">
+      <div class="sectionContainer">
+      <div>
+        <div class="aboutContainers">
         <div class="section__picContainer">
           <img
             src="./images/IMG-7Cropped.jpg"
-            alt="Profile Picture"
+            alt="Profile picture"
             class="aboutPic"
           />
         </div>
+      
         <div class="aboutDetailsContainer">
           <div class="aboutContainers">
             <div class="detailsContainer">
               <img
                 src="./images/experienceIcon.png"
-                alt="Experience Icon"
+                alt="Experience icon"
                 class="icon"
               />
-              <h3> Experience</h3>
-              <p>August 2023-Present <br>Student Coordinator <br>Hillel at RIT</p>
+              <h3>Experience</h3>
+              <p>August 2023-Current <br />Hillel Student Coordinator</p>
             </div>
             <div class="detailsContainer">
               <img
                 src="./images/educationIcon.png"
-                alt="Education Icon"
+                alt="Education icon"
                 class="icon"
               />
               <h3>Education</h3>
-              <p>August 2023-May 2028 <br>B.s Computer Science <br>Rocester Institiute of Technology</p>
+              <p>B.Sc. Computer Science</p>
             </div>
-            </div>
-            <div class="textContainer">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus exercitationem repudiandae 
-                laborum neque aliquid, ut velit error consectetur unde dolorum dicta omnis dolorem placeat. 
-                Dolores fuga necessitatibus reprehenderit cumque consequatur tenetur placeat tempore asperiores modi. 
-                Facilis, consequatur maiores. Ad architecto neque illum, non vel dolorum corporis ut labore dolore dolorem?</p>
-            </div>
+          </div>
+          <div class="textContainer">
+            <p>
+With a keen interest in Computer Science and a track record of academic excellence, I am a proactive and dedicated undergraduate student seeking a dynamic co-op or internship opportunity for the summer of 2024. Currently enrolled at Rochester Institute of Technology, I bring a solid foundation in programming languages like Python and C++, complemented by coursework in Object-Oriented Programming and Scientific Programming.
+            </p>
           </div>
         </div>
       </div>
-      <img src="./images/arrowIcon.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#Experience'">
+      </div>
+      </div>
+      <img
+        src="./images/arrowIcon.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Experience'"
+      />
     </section>
     <section id="Experience">
       <p class="section__text_p1">Explore My</p>
       <h1 class="title">Experience</h1>
-      <div class="experienceDetailsContainer">
-        <div class="aboutContainers">
+      <div class="aboutContainers">
+        <div class="experienceDetailsContainer">
           <div class="detailsContainer">
             <h2 class="experienceSubtitle">Backend Development</h2>
             <div class="articleContainer">
-        
               <article>
                 <img src="./images/checkmark.png" alt="Checkmark Icon" class="icon">
                 <div>
@@ -137,14 +144,14 @@
                 <img src="./images/checkmark.png" alt="Checkmark Icon" class="icon">
                 <div>
                   <h3>C++</h3>
-                  <p>Intermediate</p>
+                  <p>Familiar</p>
                 </div>
               </article>
               <article>
                 <img src="./images/checkmark.png" alt="Checkmark Icon" class="icon">
                 <div>
                   <h3>Java</h3>
-                  <p>Basic</p>
+                  <p>Familiar</p>
                 </div>
               </article>
               <article>
@@ -155,10 +162,10 @@
                 </div>
               </article>
             </div>
-            
           </div>
         </div>
-        <div class="detailsContainer">
+    <div class="experienceDetailsContainer">
+      <div class="detailsContainer">
           <h2 class="experienceSubtitle">Frontend Devlopment</h2>
           <div class="articleContainer">
             <article>
@@ -176,30 +183,44 @@
               </div>
             </article>
             <article>
+              <img src="./images/checkmark.png" alt="Checkmark Icon" class="icon">
+              <div>
+                <h3>JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./images/checkmark.png" alt="Checkmark Icon" class="icon">
+              <div>
+                <h3>Git/Version Control</h3>
+                <p>Familiar</p>
+              </div>
+            </article>
+            <article>
           </div>
-          
         </div>
       </div>
-      </div>
-      <img src="./images/arrowIcon.png" 
+    </div>
+    <img src="./images/arrowIcon.png" 
       alt="Arrow icon" 
       class="icon arrow"
-       onclick="location.href='./#Projects'">
+       onclick="location.href='./#Projects'"/>
     </section>
     <section id="Projects">
       <p class="section__text_p1">Browse my Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experienceDetailsContainer"> 
+        <div class="aboutContainers">
         <div class="detailsContainer colorContainer">
           <div class="articleContainer"> 
-            <img src="" alt="project 1" class="projectImg">
+            <img src="./images/BoundedSnake.png" alt="project 1" class="projectImg">
           </div>
           <h2 class="experienceSubtitle projectTitle">Project One</h2>
           <div class="btn_container">
-          <button class="btn btnColor2 projectBtn" onclick="location.href='https://github.com'">
+          <button class="btn btnColor2 projectBtn" onclick="window.open('https://github.com/Jami-tsm/Bounded-Snake', '_blank')">
             GitHub
           </button>
-          <button class="btn btnColor2 projectBtn" onclick="location.href='https://github.com'">
+          <button class="btn btnColor2 projectBtn" onclick="window.open('https://github.com/Jami-tsm/Bounded-Snake', '_blank')">
             Live Demo
           </button>
           </div>
@@ -210,29 +231,33 @@
           </div>
           <h2 class="experienceSubtitle projectTitle">Project Two</h2>
           <div class="btn_container">
-          <button class="btn btnColor2 projectBtn" onclick="location.href='https://github.com'">
+          <button class="btn btnColor2 projectBtn" onclick="window.open('https://github.com/Jami-tsm/Bounded-Snake', '_blank')">
             GitHub
           </button>
-          <button class="btn btnColor2 projectBtn" onclick="location.href='https://github.com'">
+          <button class="btn btnColor2 projectBtn" onclick="window.open('https://github.com/Jami-tsm/Bounded-Snake', '_blank')">
             Live Demo
           </button>
           </div>
-        </div>
-        <div class="detailsContainer colorContainer">
+        </div></div>
+        <!-- <div class="detailsContainer colorContainer">
           <div class="articleContainer"> 
             <img src="" alt="project 3" class="projectImg">
           </div>
           <h2 class="experienceSubtitle projectTitle">Project Three</h2>
           <div class="btn_container">
-          <button class="btn btnColor2 projectBtn" onclick="location.href='https://github.com'">
+          <button class="btn btnColor2 projectBtn" onclick="window.open('https://github.com/Jami-tsm/Bounded-Snake', '_blank')">
             GitHub
           </button>
-          <button class="btn btnColor2 projectBtn" onclick="location.href='https://github.com'">
+          <button class="btn btnColor2 projectBtn" onclick="window.open('https://github.com/Jami-tsm/Bounded-Snake', '_blank')">
             Live Demo
           </button>
           </div>
-        </div>
+        </div> -->
       </div>
+      <img src="./images/arrowIcon.png" 
+      alt="Arrow icon" 
+      class="icon arrow"
+       onclick="location.href='./#Contact'"/>
     </section>
     <script src="script.js"></script>
   </body>
