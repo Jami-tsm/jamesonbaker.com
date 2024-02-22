@@ -31,5 +31,6 @@ To run this portfolio locally, follow these steps:
    ```bash
    git clone https://github.com/Jami-tsm/jamesonbaker.com.git
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/34494100-86f0-4699-a0a7-2cf340e62a33/deploy-status)](https://app.netlify.com/sites/jamesonbaker/deploys)
 ## Comtributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
