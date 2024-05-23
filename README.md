@@ -20,7 +20,7 @@ This is a simple personal portfolio website implemented using HTML, CSS, and Jav
 
 ## Demo
 
-You can view a live demo of the portfolio [http://jamesonoliverbaker.s3-website.us-east-2.amazonaws.com/](url)
+You can view a live demo of the portfolio http://jamesonoliverbaker.s3-website.us-east-2.amazonaws.com/
 
 ## Installation
 
