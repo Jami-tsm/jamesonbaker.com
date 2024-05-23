@@ -1,5 +1,4 @@
-# jamesonbaker.com [![Netlify Status](https://api.netlify.com/api/v1/badges/34494100-86f0-4699-a0a7-2cf340e62a33/deploy-status)](https://app.netlify.com/sites/jamesonbaker/deploys)
-
+# jamesonbaker.com 
 # Personal Portfolio
 
 This is a simple personal portfolio website implemented using HTML, CSS, and JavaScript. It showcases my projects and skills and provides a brief introduction about me.
@@ -21,7 +20,7 @@ This is a simple personal portfolio website implemented using HTML, CSS, and Jav
 
 ## Demo
 
-You can view a live demo of the portfolio [here](#).
+You can view a live demo of the portfolio [http://jamesonoliverbaker.s3-website.us-east-2.amazonaws.com/](url)
 
 ## Installation
 
