@@ -1,15 +1,12 @@
 # jamesonbaker.com 
 # Personal Portfolio
 
-This is a simple personal portfolio website implemented using HTML, CSS, and JavaScript. It showcases my projects and skills and provides a brief introduction about me.
+This is a simple personal portfolio website implemented using HTML, CSS, and JavaScript. Hosted on AWS and Hostinger. It showcases my projects and skills and provides a brief introduction about me.
 
 ## Table of Contents
 
 - [Features](#features)
 - [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
 
 ## Features
 
@@ -20,16 +17,5 @@ This is a simple personal portfolio website implemented using HTML, CSS, and Jav
 
 ## Demo
 
-You can view a live demo of the portfolio http://jamesonoliverbaker.s3-website.us-east-2.amazonaws.com/
+You can view a live demo of the portfolio jamesonbaker.com
 
-## Installation
-
-To run this portfolio locally, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/Jami-tsm/jamesonbaker.com.git
-
-## Comtributing
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
